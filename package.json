@@ -1,0 +1,19 @@
+{
+  "name": "hello-wasm",
+  "version": "0.0.1",
+  "description": "Hello World in WebAssembly",
+  "repository": "https://github.com/jamesseanwright/hello-wasm",
+  "scripts": {
+    "start": "static .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webassembly",
+    "wasm"
+  ],
+  "author": "James Wright <james@jamesswright.co.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "node-static": "0.7.10"
+  }
+}

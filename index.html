@@ -1,0 +1,8 @@
+<script>
+  'use strict';
+
+  fetch('/hello.wasm')
+    .then(res => res.arrayBuffer())
+    .then(bytes => WebAssembly.instantiate(bytes, {}))
+    .then(console.log);
+</script>
